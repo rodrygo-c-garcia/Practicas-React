@@ -1,0 +1,9 @@
+.tarea-formulario {
+  display: flex;
+  align-items: center;
+}
+
+.tarea-button {
+  width: 30%;
+  margin: 0 0 0 1%;
+}

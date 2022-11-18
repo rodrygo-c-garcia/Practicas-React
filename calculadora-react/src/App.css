@@ -9,17 +9,19 @@ body {
   background-color: #404064;
 }
 
+h1 {
+}
+
 .App {
   height: 100vh;
-/* Centramos todos los elementos en vertical y horizontal */
+  /* Centramos todos los elementos en vertical y horizontal */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 
   padding-top: 15px;
-  font-family: 'Poppins',
-    sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .freecodecamp-logo-contenedor {
@@ -34,11 +36,10 @@ body {
   height: 50px;
 }
 
-
-.contenedor-calculadora{
+.contenedor-calculadora {
   width: 400px;
   height: 600px;
-  
+
   background: rgba(255, 255, 255, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);

@@ -3,6 +3,8 @@ import "./App.css";
 import Testimonio from "./componentes/Testimonio.jsx";
 
 function App() {
+  const negrita = " freeCodeCamp cambió mi vida.";
+
   return (
     <div className="App">
       <div className="contenedor-principal">
@@ -13,11 +15,7 @@ function App() {
           imagen="https://i.ibb.co/xC8SRrY/Shawn-bf42c7b909dae3111d18a21870ee6ca5.png"
           cargo="Ingeniero de Software"
           empresa="Amazon"
-          testimonio='"Da miedo cambiar de carrera. Solo gané la confianza de que
-            podía programar trabajando a través de los cientos de horas de
-            lecciones gratuitas en freeCodeCamp. Dentro de un año tuve un
-            trabajo de seis cifras como ingeniero de software.
-            freeCodeCamp cambió mi vida."'
+          testimonio='"Da miedo cambiar de carrera. Solo gané la confianza de que podía programar trabajando a través de los cientos de horas de trabajo de seis cifras como ingeniero de software. freeCodeCamp cambió mi vida"'
         />
 
         <Testimonio
