@@ -6,10 +6,9 @@
 
 html,
 body {
-  background-color: #404064;
-}
-
-h1 {
+  /* background: url(./img/dell-unsplash.jpg) center / cover no-repeat fixed; */
+  background: url(https://source.unsplash.com/E8Ufcyxz514/2400x1823) center /
+    cover no-repeat fixed;
 }
 
 .App {
@@ -30,6 +29,13 @@ h1 {
   align-items: center;
   justify-content: center;
   margin: 20px;
+  /* Glassmorphis */
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .freecodecamp-logo {
@@ -40,10 +46,11 @@ h1 {
   width: 400px;
   height: 600px;
 
-  background: rgba(255, 255, 255, 0.25);
+  /* Glassmorfismo */
+  background: rgba(255, 255, 255, 0.3);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
