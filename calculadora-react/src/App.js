@@ -23,10 +23,15 @@ function App() {
     // evalua una expresion matematica (mathjs)
     if (!isNaN(input.slice(-1))) {
       setInput(evaluate(input).toString());
+      handleClose();
     } else {
       setInput("");
+      handleShow();
     }
   };
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   return (
     <>
@@ -70,6 +75,7 @@ function App() {
           </div>
         </div>
       </div>
+      <ModalError show={show} handleClose={handleClose} />
     </>
   );
 }
